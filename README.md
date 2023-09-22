@@ -7,9 +7,9 @@
                                                                               (/      
 ```
 
-> :date: 最后更新日期: 2023年9月22日
-> :rocket: 查找内容: 
-> Copyright :copyright: 2023 3hexV, All Rights Reserved.
+> 最后更新日期: `2023年9月22日`
+> 查找内容: `Ctrl+F`
+> Copyright 2023 3hexV, All Rights Reserved.
 
 
 - 计算机基础知识
