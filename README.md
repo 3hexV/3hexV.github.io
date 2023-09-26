@@ -57,7 +57,7 @@
   - [CPU架构](CPU架构.md)
   - GPU架构
   - DRAM结构
-- 软件
+- 软件及应用
   - 操作系统
     - Linux
     - 嵌入式操作系统
@@ -84,7 +84,7 @@
           - GUDA C
         - 图像处理
         - 机器学习
-          - [QS-pytorch](./pytorch-Quick%20Start.md)
+          - [QS-pytorch](./QS-pytorch.md)
           - [反向传播算法](./反向传播算法.md)
         - 网络爬虫
         - 后端相关开发
