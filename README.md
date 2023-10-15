@@ -23,6 +23,10 @@
 - 计算机核心课程
   - 编译原理
   - 算法设计
+- 环境搭建
+  - VSCode
+    - [VSCode_C语言](./VSCode_C.md)
+  - Keil
 - 语言能力
   - [C语言](./C语言.md)
   - Python 3
