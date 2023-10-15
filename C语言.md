@@ -1,12 +1,12 @@
 1. Quick Start
 
 ```C
-/**
- * \file main.c
- * \date 2023.10.15
- * \author 3hex
- * \brief 这个工程介绍了绝大部的C语言语法
- * \version v1.0.0
+/***
+ \* \file main.c
+ \* \date 2023.10.15
+ \* \author 3hex
+ \* \brief 这个工程介绍了绝大部的C语言语法
+ \* \version v1.0.0
 */
 #include <stdio.h>
 #include <string.h>
@@ -62,12 +62,12 @@ void data_xor(pData data);
 void data_sum(pData data);
 
 /***
- * \brief 读取文件名参数(-f指定)，数据处理参数(-m指定)，实现对数据的处理
- * \param argc 输入参数个数
- * \param argv 输出参数字符串
- * \details 例如：.\main.exe  -m sum -f data.txt
- * \return 
- *      \retval RET_OK
+ \* \brief 读取文件名参数(-f指定)，数据处理参数(-m指定)，实现对数据的处理
+ \* \param argc 输入参数个数
+ \* \param argv 输出参数字符串
+ \* \details 例如：.\main.exe  -m sum -f data.txt
+ \* \return 
+ \*      \retval RET_OK
 */
 int main(int argc, char *argv[])
 /// 定义argv表示接收参数的个数,argc表示参数字符串。
@@ -98,12 +98,12 @@ int main(int argc, char *argv[])
 }
 
 /***
- * \brief 输入的参数识别
- * \param argc 输入参数个数
- * \param argv 输出参数字符串
- * \return
- *      \retval RET_OK 识别成功
- *      \retval RET_ERROR_1 未定义的参数选项
+ \* \brief 输入的参数识别
+ \* \param argc 输入参数个数
+ \* \param argv 输出参数字符串
+ \* \return
+ \*      \retval RET_OK 识别成功
+ \*      \retval RET_ERROR_1 未定义的参数选项
 */
 uint16 param_handle(const int *p_argc, const char **p_argv)
 {
@@ -135,11 +135,11 @@ uint16 param_handle(const int *p_argc, const char **p_argv)
 }
 
 /***
- * \brief 读取数据文件，并载入到data数据结构中
- * \param data_file_name 文件名
- * \param data data数据
- * \return
- *      \retval RET_OK 载入成功
+ \* \brief 读取数据文件，并载入到data数据结构中
+ \* \param data_file_name 文件名
+ \* \param data data数据
+ \* \return
+ \*      \retval RET_OK 载入成功
 */
 uint16 load_data_with_convert(const char *data_file_name, pData data)
 {
@@ -164,9 +164,9 @@ uint16 load_data_with_convert(const char *data_file_name, pData data)
 }
 
 /**
- * \brief 打印data的数据结构
- * \param data data数据
- * \return void 
+ \* \brief 打印data的数据结构
+ \* \param data data数据
+ \* \return void 
 */
 void print_data_struct(const Data *data)
 {
@@ -185,12 +185,12 @@ void print_data_struct(const Data *data)
 }
 
 /**
- * \brief data数据结构选择处理函数
- * \param func_mode 数据处理方式字符串，例如xor\sum
- * \param data data数据
- * \return 
- *      \retval RET_OK 处理完成
- *      \retval RET_ERROR_1 未定义的数据处理方式
+ \* \brief data数据结构选择处理函数
+ \* \param func_mode 数据处理方式字符串，例如xor\sum
+ \* \param data data数据
+ \* \return 
+ \*      \retval RET_OK 处理完成
+ \*      \retval RET_ERROR_1 未定义的数据处理方式
 */
 uint16 data_func_selector(const char *func_mode, pData data)
 {
@@ -210,9 +210,9 @@ uint16 data_func_selector(const char *func_mode, pData data)
 }
 
 /**
- * \brief 数据处理方式，异或处理
- * \param data data数据
- * \return void
+ \* \brief 数据处理方式，异或处理
+ \* \param data data数据
+ \* \return void
 */
 void data_xor(pData data)
 {
@@ -225,9 +225,9 @@ void data_xor(pData data)
 
 
 /**
- * \brief 数据处理方式，累加求和处理
- * \param data data数据
- * \return void
+ \* \brief 数据处理方式，累加求和处理
+ \* \param data data数据
+ \* \return void
 */
 void data_sum(pData data)
 {
