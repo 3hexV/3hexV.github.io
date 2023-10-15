@@ -248,3 +248,28 @@ void _assert_cus(const char *exp_message, const char *file_name, const int line_
 #endif
 }
 ```
+2. C基础
+   1. 预处理
+      1. #include
+      2. #define
+      3. #ifdef/#ifndef ... #else ... #endif
+      4. #if ... #elif ... #endif
+      5. 预定义宏
+      6. #line && #error
+      7. #pragma message/once/pack
+   2. assert（断言）
+   3. 指针
+      1. 变量指针
+      2. 函数指针
+      3. 二级/多级指针
+   4. 变量声明
+      1. extern
+      2. static
+      3. auto
+      4. register
+      5. const
+      6. volatile
+   5. 高级结构
+      1. 结构体
+      2. 枚举
+      3. 共用体
