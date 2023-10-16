@@ -9,7 +9,7 @@
 ```
 > 最后更新日期: `2023年10月14日`
 > 查找内容: `Ctrl+F`
-
+> 关于作者: 3hex
 
 
 - 计算机基础课程
@@ -22,6 +22,7 @@
   - 高等数学、线性代数、离散数学、概率论
 - 计算机核心课程
   - 编译原理
+    - 编译与链接
   - 算法设计
 - 环境搭建
   - VSCode
@@ -53,6 +54,7 @@
         - Linux
       - Linux
         - Linux源码解析
+          - [Linux 0.11](./Linux%200.11%20源码解析.md)
         - Linux内核裁剪
         - Linux驱动开发/移植
     - 交叉编译
@@ -98,14 +100,17 @@
         - WiFiMax
         - UWB
       - 有线
-        - IIC
+        - [IIC](./IIC.md)
         - SPI
         - CAN
+        - 1-Wire
         - USB
         - PS-2
         - USART/UART
         - IIS
         - RJ45
+        - RS232
+        - RS485
     - 网络通信协议
       - Ethernet
     - 数据规范
@@ -118,6 +123,7 @@
     - 图像规范
     - 视频规范
     - 音频规范
+    - IEEE Std 1003.2-1992（POSIX.2）
 - 硬件能力
   - PCB电路设计
   - 硬件调试
@@ -129,8 +135,10 @@
     - git
     - svn
   - 编译
-    - make
+    - [makefile](./makefile.md)
     - cmake
+  - markdown
+    - [mermaid 绘图](markdown_mermaid.md)
 - 专业性能力
   - ROS机器人
   - 图像处理
